@@ -1,0 +1,56 @@
+.modal {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    display: none; /* O modal começa escondido */
+    position: fixed; /* Fixa o modal na janela de visualização */
+    top: 50%; /* Posiciona o topo do modal no meio verticalmente */
+    left: 50%; /* Posiciona o lado esquerdo do modal no meio horizontalmente */
+    transform: translate(-50%, -50%); /* Desloca o modal para trás pela metade de sua altura e largura */
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 2rem 1rem;
+    width: 100%;
+    max-width: 37.5rem;
+    overflow-y: auto;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+
+.btn-close {
+    background-color: transparent;
+    border: none;
+    color: #ff2929;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.modal-content h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.modal-content p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.modal-content h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
