@@ -16,6 +16,7 @@
 - JavaScript
 - CSS
 - HTML
+- Phosphor-icons : biblioteca para ícones.
 
 # Projeto
 
