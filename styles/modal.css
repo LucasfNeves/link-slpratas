@@ -8,11 +8,11 @@
     justify-content: center;
     align-items: center;
     padding: 1rem 1rem;
-    display: none; /* O modal começa escondido */
-    position: fixed; /* Fixa o modal na janela de visualização */
-    top: 50%; /* Posiciona o topo do modal no meio verticalmente */
-    left: 50%; /* Posiciona o lado esquerdo do modal no meio horizontalmente */
-    transform: translate(-50%, -50%); /* Desloca o modal para trás pela metade de sua altura e largura */
+    display: none; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .modal-content {
