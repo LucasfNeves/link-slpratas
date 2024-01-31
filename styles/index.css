@@ -131,4 +131,9 @@
     font-weight: 500;
     text-align: center;
     margin-bottom: 2rem;
+   
+}
+
+.instagram-name a {
+    color: #E5E7EB;
 }
