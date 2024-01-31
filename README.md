@@ -1,5 +1,15 @@
 ![image](https://github.com/LucasfNeves/link-slpratas/assets/136910031/10fe4f61-e0c4-4538-b1d5-fc40ae13eb84)
 
+##
+
+![image](https://github.com/LucasfNeves/link-slpratas/assets/136910031/f67a9c87-f9df-47a1-ba24-8483107296ef)
+
+##
+
+![image](https://github.com/LucasfNeves/link-slpratas/assets/136910031/e1de487d-024d-4ff6-a6ef-9b47a2cd3383)
+
+
+
 
 # Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
