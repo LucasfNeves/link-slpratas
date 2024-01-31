@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     display: none; /* O modal começa escondido */
     position: fixed; /* Fixa o modal na janela de visualização */
     top: 50%; /* Posiciona o topo do modal no meio verticalmente */
