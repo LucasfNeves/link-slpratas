@@ -32,7 +32,8 @@ Live Preview : https://link-slpratas.vercel.app/
 # Layout
 Você pode visualizar o projeto pelos links abaixo:
 
-[Figma](https://www.figma.com/file/tU8HvnkcQnrAGIuGESa5wR/Links-SL.Pratas?type=design&node-id=0%3A1&mode=design&t=s0hfYOI8P8PVm19L-1)
+- [Figma Template](https://www.figma.com/file/tU8HvnkcQnrAGIuGESa5wR/Links-SL.Pratas?type=design&node-id=0%3A1&mode=design&t=s0hfYOI8P8PVm19L-1)
+- 
 Lembrando que é necessário ter uma conta no Figma para acessar.
 
 Feito com 💜 por Lucas Farias 👋
