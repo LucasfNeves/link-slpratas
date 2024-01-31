@@ -13,9 +13,9 @@
 
 # Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-JavaScript
-CSS
-HTML
+- JavaScript
+- CSS
+- HTML
 
 # Projeto
 
