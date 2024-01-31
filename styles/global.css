@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    --webkit-font-smoothing: antialiased;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #18181B;
+    width: 100vw;
+    height: 100vh;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+  
+::-webkit-scrollbar-track{
+    background: #18181B;
+}
+    
+::-webkit-scrollbar-thumb{
+    background: #14141B;
+    border-radius: 10px;
+}
