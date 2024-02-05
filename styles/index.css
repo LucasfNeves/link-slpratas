@@ -60,14 +60,12 @@
 .link-container > h2 {
     font-size: 1.3rem;
     font-weight: 700;
-    text-align: center;
     width: 100%;
-    max-width: 37.5rem;
     padding: 0 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .link-container > h2 > i {
