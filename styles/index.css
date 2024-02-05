@@ -58,10 +58,24 @@
 }
 
 .link-container > h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
     text-align: center;
+    width: 100%;
+    max-width: 37.5rem;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
+
+.link-container > h2 > i {
+    color: #F59E0B;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 
 .link-container nav {
     width: 100%;
@@ -135,5 +149,33 @@
 }
 
 .instagram-name a {
-    color: #E5E7EB;
+    color: #F59E0B;;
+
+}
+
+footer {
+    width: 100%;
+    max-width: 37.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1rem;
+    gap: 1rem;
+
+}
+
+.deliveries {
+    width: 100%;
+    max-width: 37.5rem;
+    display: flex;
+    text-align: center;
+    color: #AFAFB0;
+    gap: 0.2rem;
+    
+
+}
+
+.deliveries > i {
+    font-size: 1.2rem;
+    color: #F59E0B;
 }

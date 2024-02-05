@@ -30,37 +30,14 @@
 }
 
 .modal-content h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
-}
-
-.modal-content ul {
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
-    list-style: none;
-}
-
-.modal-content li {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #fff;
-}
-
-.modal-content li strong {
-    color: #F59E4f;
-    display: block;
 }
 
 .modal-content p {
     font-size: 1rem;
     line-height: 1.5rem;
     color: #fff;
-}
-
-.modal-content h2 {
-    font-size: 1.25rem;
-    margin: 1rem 0;
 }
 
 .btn-close {
