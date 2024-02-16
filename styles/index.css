@@ -5,48 +5,42 @@
     flex-direction: column;
 }
 
-.header {
-    width: 100%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 1rem 0;
-}
-
-.header > img {
-    width: 5rem;
-    height: 3rem;
-}
-
-.content-main {
+.content {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
     align-items: center;
-}
-
-.logo-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
     justify-content: center;
+    height: 100vh;
+}
+
+.profile-picture {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
-.logo-container > img {
-    width: 10rem;
-    height: 10rem;
+.profile-picture img {
+    width: 9rem;
+    height: 9rem;
     border-radius: 50%;
-    border: 2px solid #F59E0B;
+    border: 2px solid #ffd700;
+    box-shadow: 0 0 10px #ffd700;
 }
 
-.logo-container > p {
+.legend {
+    display: flex;
+    flex-direction: column;
     font-size: 1rem;
     text-align: center;
     padding: 0 1rem;
-    color: #AFAFB0;
+    color: #fff;
+    gap: 0.25rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #3f3f46;
 }
 
 .link-container {
@@ -67,11 +61,11 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    color: #AFAFB0;
+    color: #fff;
 }
 
 .logo-container > p > i {
-    color: #F59E0B;
+    color: #ffd700;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -86,16 +80,17 @@
     justify-content: center;
     gap: 2rem;
     padding: 0 1rem;
+  
 }
 
 .link-container nav a {
     width: 100%;
     max-width: 37.5rem;
     padding: 1rem 0;
-    border-radius: 0.5rem;
+    border-radius: 3rem;
     background-color: transparent;
-    border: 2px solid #F59E0B;
-    color : #F59E0B;
+    border: 2px solid #ffd700;
+    color : #ffd700;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,24 +98,27 @@
     transition: all 0.3s ease-in-out;
     font-weight: 500;
     font-size: 1.1rem;
+    box-shadow: 1px 1px 2px #18181b;
+  
 }
 
 
 .link-container nav a:hover {
-    background-color: #F59E0B;
+    background-color: #ffd700;
     color: #18181B;
     font-weight: 500;
     scale: 1.05;
+    box-shadow: 10px 10px 10px #3f3f46;
 }
 
 .btn-open {
     width: 100%;
     max-width: 37.5rem;
     padding: 1rem 0;
-    border-radius: 0.5rem;
+    border-radius: 3rem;
     background-color: transparent;
-    border: 2px solid #F59E0B;
-    color : #F59E0B;
+    border: 2px solid #ffd700;
+    color : #ffd700;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,15 +126,17 @@
     transition: all 0.3s ease-in-out;
     font-weight: 500;
     font-size: 1.1rem;
+    box-shadow: 1px 1px 2px #18181b;
 }
 
 
 .btn-open:hover {
-    background-color: #F59E0B;
+    background-color: #ffd700;
     color: #18181B;
     font-weight: 500;
     scale: 1.05;
     cursor: pointer;
+    box-shadow: 10px 10px 10px #3f3f46;
 }
 
 .instagram-name {
@@ -144,12 +144,13 @@
     font-size: 1.2rem;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 2rem;
    
 }
 
 .instagram-name a {
-    color: #AFAFB0;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #3f3f46;
 }
 
 footer {
@@ -161,20 +162,4 @@ footer {
     padding: 1rem 1rem;
     gap: 1rem;
 
-}
-
-.deliveries {
-    width: 100%;
-    max-width: 37.5rem;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color: #AFAFB0;
-    gap: 0.5rem;
-    
-
-}
-
-.deliveries > i {
-    color: #F59E0B;
 }

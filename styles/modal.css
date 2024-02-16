@@ -16,13 +16,13 @@
 }
 
 .modal-content {
-    background-color: #18181B;
+    background-color: rgba(24, 24, 27, 0.9);
     border-radius: 0.5rem;
     padding: 2rem 1rem;
     width: 100%;
     max-width: 37.5rem;
     overflow-y: auto;
-    color: #F59E0B;
+    color: #e5e7eb;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -38,7 +38,7 @@
 .modal-content p {
     font-size: 1rem;
     line-height: 1.5rem;
-    color: #fff;
+    color: #d1d5db;
     text-align: justify;
 }
 

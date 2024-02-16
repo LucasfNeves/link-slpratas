@@ -8,14 +8,15 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #18181B;
     width: 100vw;
     height: 100vh;
-    color: #E5E7EB;
     display: flex;
     justify-content: center;
-    align-items: start;
-    overflow-x: hidden;
+    align-items: center;
+    background-image: url('../assets/FEEDBACK.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -97rem;
 }
 
 ::-webkit-scrollbar{
@@ -30,4 +31,13 @@ body{
 ::-webkit-scrollbar-thumb{
     background: #14141B;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('../assets/FEEDBACK.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
