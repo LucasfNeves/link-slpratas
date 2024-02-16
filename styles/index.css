@@ -62,6 +62,7 @@
     align-items: center;
     gap: 0.5rem;
     color: #fff;
+    text-shadow: 1px 1px 1px #3f3f46;
 }
 
 .logo-container > p > i {
