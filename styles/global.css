@@ -16,7 +16,7 @@ body{
     background-image: url('../assets/FEEDBACK.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center -97rem;
+    background-position: center ;
 }
 
 ::-webkit-scrollbar{
@@ -33,11 +33,74 @@ body{
     border-radius: 10px;
 }
 
-@media (max-width: 768px) {
-    body {
-        background-image: url('../assets/FEEDBACK.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+@media (min-width: 800px){
+    body{
+        background-position: center -13rem;
+    }
+}
+
+@media (min-width: 900px){
+    body{
+        background-position: center -23rem;
+    }
+}
+
+@media (min-width: 1000px){
+    body{
+        background-position: center -33rem;
+    }
+}
+
+@media (min-width: 1100px){
+    body{
+        background-position: center -43rem;
+    }
+}
+
+@media (min-width: 1200px){
+    body{
+        background-position: center -53rem;
+    }
+}
+
+@media (min-width: 1300px){
+    body{
+        background-position: center -66rem;
+    }
+}
+
+@media (min-width: 1400px){
+    body{
+        background-position: center -76rem;
+    }
+}
+
+@media (min-width: 1500px){
+    body{
+        background-position: center -82rem;
+    }
+}
+
+@media (min-width: 1700px){
+    body{
+        background-position: center -105rem;
+    }
+}
+
+@media (min-width: 1800px){
+    body{
+        background-position: center -110rem;
+    }
+}
+
+@media (min-width: 1800px){
+    body{
+        background-position: center -115rem;
+    }
+}
+
+@media (min-width: 2100px){
+    body{
+        background-position: center -125rem;
     }
 }
