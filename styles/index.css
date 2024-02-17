@@ -20,7 +20,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
 }
 
 .profile-picture img {
@@ -39,7 +40,6 @@
     padding: 0 1rem;
     color: #fff;
     gap: 0.25rem;
-    font-weight: bold;
     text-shadow: 1px 1px 1px #3f3f46;
     font-family: "Capriola", sans-serif;
 }
@@ -152,4 +152,6 @@
     text-decoration: none;
     text-shadow: 1px 1px 1px #3f3f46;
     font-family: "Capriola", sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
